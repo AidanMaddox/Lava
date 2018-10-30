@@ -12,3 +12,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.bg-img{
+  height:100vh;
+  margin: 0px;
+}
+
+.footer{
+  background-color: #303030;
+}

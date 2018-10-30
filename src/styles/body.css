@@ -1,0 +1,53 @@
+.bg-img{
+  height:90vh;
+  margin: 0px;
+}
+.bg-img-small{
+
+  width: 100vw;
+  margin: 0px;
+  padding: 0;
+
+}
+.container-body{
+  background-color: green;
+
+}
+.lower-img-container{
+
+  height: 5vh;
+  width: 100vw;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+.footer{
+  background-color: #303030;
+  height: 10vh;
+  margin: 0;
+}
+.show-grid{
+  background-color: blue;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+.grid{
+  background-color: green;
+padding: 0;
+  margin: 0;
+
+}
+
+.title{
+  /* float: left; */
+  margin: none;
+  padding-left: 0;
+  background-color: red;
+}
+.side-pannel{
+  //background-image:url("../images/bgoverlay.png") ;
+background-size: cover;
+}

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import{ Grid, Row, Col} from 'react-bootstrap';
-import bgoverlay from './bgoverlay.png';
+import bgoverlay from '../images/bgoverlay.png';
 
 class Booter extends Component{
   render(){

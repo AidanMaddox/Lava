@@ -1,18 +1,25 @@
 import React, { Component } from 'react';
-import Footer from './Footer';
-import Body from './Body';
-
-import logo from './logo.svg';
-import './App.css';
+import {BrowserRouter,Router, Switch} from 'react-router-dom';
+import Route from 'react-router-dom/Route';
+import Footer from '../components/Footer';
+import Body from '../components/Body';
+import Business from '../components/Business';
+import logo from '../images/logo.svg';
+import '../styles/App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Body/>
-        <Footer/>
-      </div>
-    );
+
+        <BrowserRouter>
+          <div className="App">
+
+              <Route exact path="/" component={Body} />
+              <Route exact path='/business' component={Business}/>
+
+          </div>
+        </BrowserRouter>
+      );
   }
 }
 

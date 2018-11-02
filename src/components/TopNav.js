@@ -21,7 +21,7 @@ class TopNav extends Component{
               smallMenuClassName="small-menu-classname"
               menu={
                 <ul>
-                  <Button bsClass='btn-logout' href="/">  <Link to="/"> Logout </Link> </Button>
+                  <Button bsClass='btn-logout'>  <Link to="/"> Logout </Link> </Button>
                 </ul>
               }
             />

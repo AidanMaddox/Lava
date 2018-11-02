@@ -10,24 +10,20 @@
 
 }
 .container-body{
-  background-color: green;
+  //background-color: green;
 
 }
 .lower-img-container{
 
-  height: 5vh;
+  height: 10vh;
   width: 100vw;
   overflow: hidden;
   padding: 0;
   margin: 0;
 }
-.footer{
-  background-color: #303030;
-  height: 10vh;
-  margin: 0;
-}
+
 .show-grid{
-  background-color: blue;
+//  background-color: blue;
   width: 100vw;
   margin: 0;
   padding: 0;
@@ -35,19 +31,38 @@
 
 }
 .grid{
-  background-color: green;
+  //background-color: green;
 padding: 0;
   margin: 0;
 
 }
+.logoimg{
+  margin-top: 50px;
+  max-height: 100px;
+}
 
-.title{
-  /* float: left; */
-  margin: none;
+.text-column{
+
+
+  margin: 0 auto;
+
+  width: 80%;
   padding-left: 0;
-  background-color: red;
+  //background-color: red;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+}
+.main-title{
+  //text-align: center;
+
 }
 .side-pannel{
   //background-image:url("../images/bgoverlay.png") ;
 background-size: cover;
+}
+
+#emailbox{
+  margin: 0 left;
+
 }

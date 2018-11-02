@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-
-import {Button} from 'react-bootstrap';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import '../styles/footer.css';
+import {BrowserRouter,Router, Switch} from 'react-router-dom';
+import Route from 'react-router-dom/Route';
 import ResponsiveMenu from 'react-responsive-navbar';
 import '../styles/footer.css';
+//import{ Popover} from 'react-bootstrap';
 
 class Footer extends Component{
   render(){

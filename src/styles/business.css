@@ -1,0 +1,24 @@
+.business-container{
+  background-color: red;
+  width:auto;
+  height: 50em;
+
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.info-container{
+  /* background-color: pink; */
+}
+.analytics-container{
+  background-color: pink;
+  text-align: left;
+}
+.analytics-picture{
+
+  background-image: url("../images/ducle.analytics.PNG");
+  width: 100%;
+      height: auto;
+
+  padding-left:1em;
+  padding-right:1em;
+}

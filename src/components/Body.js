@@ -3,7 +3,7 @@ import{ Grid, Row, Col} from 'react-bootstrap';
 import bgoverlay from '../images/bgoverlay.png';
 import bgoverlay2 from '../images/bgoverlay-2.png';
 import chomplogo from '../images/chomp-07.png';
-import MailchimpSubscribe from "react-mailchimp-subscribe"
+import MailchimpSubscribe from 'react-mailchimp-subscribe';
 import '../styles/body.css';
 
 const url = "//xxxx.us13.list-manage.com/subscribe/post?u=zefzefzef&id=fnfgn";
@@ -29,9 +29,9 @@ const url = "//xxxx.us13.list-manage.com/subscribe/post?u=zefzefzef&id=fnfgn";
 class Body extends Component{
   render(){
     return (
-      <div className='container-body'>
+      <div>
 
-      <Grid className='grid'>
+      <Grid>
           <Row className="show-grid">
             <Col xs={12} md={9}>
             <div className="text-column">
@@ -60,11 +60,8 @@ class Body extends Component{
 
             </Col>
 
-             <Col xsHidden smHidden md={3}className="side-pannel">
+            <Col xs={3} md={2}>
               <img src={bgoverlay} className="bg-img" alt="cover" />
-            </Col>
-            <Col mdHidden lgHidden xs={12} sm={12} className="lower-img-container">
-              <img src={bgoverlay2} className="bg-img-small" alt="cover" />
             </Col>
           </Row>
       </Grid>

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../styles/footer.css';
 //import{ Popover} from 'react-bootstrap';
 
 class Footer extends Component{
